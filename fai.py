@@ -33,7 +33,7 @@ def get_rms( block ):
     # RMS amplitude is defined as the square root of the 
     # mean over time of the square of the amplitude.
     # so we need to convert this string of bytes into 
-    # a string of 16-bit samples...
+    # a string of 16-bit samples....
 
     # we will get one short out for each 
     # two chars in the string.
